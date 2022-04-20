@@ -1,56 +1,30 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
-> Description the project.
+> The final goal is to build my personnal portfolio but for now, We'll go step by step
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- Flexbox
 
-## Live Demo (if available)
+## Template view
 
-[Live Demo Link](https://livedemo.com)
+[Final resultat](https://drive.google.com/file/d/1gtAzzolIYzEl-YT1GqarFeiNo_rgsFY_/view?usp=sharing)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**We'll add some information here when the project we'll be ready**
 
 ## Authors
 
-👤 **Author1**
+👤 **Alex Masangana**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@masangana](https://github.com/masangana)
+- Twitter: [@alexmasangana](https://twitter.com/alexmasangana)
 
 ## 🤝 Contributing
 
@@ -64,9 +38,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Mycroverse
+- Mycronautes
+- Cem Eygi: [@cem_eygi](https://twitter.com/cem_eygi)
 
 ## 📝 License
 

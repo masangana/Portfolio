@@ -15,18 +15,21 @@
     height: 72px;
     align-items: center;
     font-size: 15px;
-    padding-left: 50px;
     padding-right: 50px;
 }
-
+ .main {
+     height: 560px;
+     background-color: #1C1A19;
+     /*border: 3px solid blue;*/
+ }
 .top-navigation {
     list-style-type: none;
 }
 
 .top-navigation .navigation-item {
     display: inline-block;
-    
-    border: 3px solid red;
+   /* 
+    border: 3px solid red;*/
     padding: 15px;
 }
 
@@ -42,9 +45,21 @@
     text-align: center;
     color: #FFFFFF;
 }
-
+/*
 .navbar a:hover{
     color: red;
+}*/
+
+.logo a {
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 10px;
+    /*color: red ;
+    border: 3px solid #F55800;*/
+    /*display: none;*/
 }
 
 .menu {
@@ -66,11 +81,10 @@
 /* -----style for headline----- */
 
 .headline {
-    height: 450px;
+    height: 500px;
     width: 100%;
     display: grid;
     grid-template-columns: 50px 1fr;
-    background-color: #1C1A19;
     background-image: url(/ressources/Illustration-header.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -85,19 +99,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid rgb(207, 9, 9);
+    /*border: 3px solid rgb(207, 9, 9);*/
 }
 
 .text-headline {
     display: grid;
     justify-content: left;
     align-items: center;
-    border: 3px solid #000;
+    /*border: 3px solid #000;*/
 }
 
 .image-couverture {
-    border: 3px solid blue;
-   /* width: 100%;*/
+    /*border: 3px solid blue;
+    width: 100%;*/
     height: 100%;
     flex-basis: 25%;
 }
@@ -132,6 +146,12 @@
 
 /* -----style alternative responsive----- */
 
+@media all and (max-width: 780px) {
+    .headline {
+        background-image: none;
+    }
+}
+
 @media all and (max-width: 480px) { 
     .navbar {
         flex-direction: column;
@@ -139,15 +159,26 @@
         height: 72px;
     }
 
-    .navbar .logo {
-        width: 100%;
+    .logo {
+
+        display: block;
+        position: absolute;
+        top: 15px;
+        margin-left: 0px;
+        left: 1px;
+        /*color: red;
+        display: none;*/
+    }
+
+    .logo a {
+        margin-left: 10%;
     }
 
     .menu {
         display: block;
         position: absolute;
         right: 15px;
-        top: 15px;
+        top: 25px;
     }
 
     .top-navigation{
@@ -171,11 +202,7 @@
         color: #FFF5E1
     }
 
-    .logo {
-        margin-top: 10px;
-        margin-left: 50px;
-        /*display: none;*/
-    }
+    
 
     /* -----style for main section----- */
 

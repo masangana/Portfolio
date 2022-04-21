@@ -1,70 +1,97 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">    
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Alex Portfolio</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="">Alexander</a>
-        </div>
-        <ul class="top-navigation">
-            <li class="navigation-item">
-                <a href="">Portfolio</a>
-            </li>
-            <li class="navigation-item">
-                <a href="">About</a>
-            </li>
-            <li class="navigation-item">
-                <a href="">Contact</a>
-            </li>
-        </ul>
-        <div class="menu">
+    <!--Principal nav-->
+    <header>
+        <nav>
+          <a href="">Alexander</a>
+          <li class="nav-list menu-collapsed" id=""><a href="">
             <div class="menu-line"></div>
             <div class="menu-line"></div>
             <div class="menu-line"></div>
-        </div>
-    </nav>
+        </a></li>
+          <ul class="navbar-items">
+            <li class="nav-list"><a href="">Portfolio</a></li>
+            <li class="nav-list"><a href="">About</a></li>
+            <li class="nav-list"><a href="">Contact</a></li>
+           
+          </ul>
+        </nav>
+    </header>
 
-    <main class="main" >
-        <div class="headline">
-            <div class="social-media">
-                <a href=""><img src="./ressources/icons/twitter.svg" alt="logo_twitter" 
-                    class="logo-social">
-                </a>
-                <a href=""><img src="./ressources/icons/github.svg" alt="logo_github" 
-                    class="logo-social">
-                </a>
-                <a href=""><img src="./ressources/icons/Linkedin.svg" alt="logo_Linkedin" 
-                    class="logo-social">
-                </a>
-                <a href=""><img src="./ressources/icons/angel.svg" alt="logo_angel" 
-                    class="logo-social">
-                </a>
-                <a href=""><img src="./ressources/icons/medium.svg" alt="logo_medium" 
-                    class="logo-social">
-                </a>
-            </div>
-            <div class="text-headline">
-                <p class="primery-text">
-                    Hey There. <br>I'm Alex
-                </p>
-                <p class="supporting-text">
-                    I’am a Software Developer
-                </p>
+        <!--main-->
+        <main id="main">
+            <!--home page-->
+            <section class="text-headline">
+              <h1 class="primery-text">Hey There.<br />I'm Alexander</h1>
+      
+              <div class="main-description">
+                <h2 class="supporting-text">I'm a Software Developer</h2>
+      
                 <p class="description">
-                    I can help you build a product , 
-                    feature or website Look through some of my work and experience! I
-                    f you like what you see and have a project you need coded, 
-                    don’t hestiate to contact me.
+                  I can help you build a product, feature or website Look through some
+                  of my work and experiece! If you like what you see and have a
+                  project you need coded, don't hesitate to contact me.
                 </p>
-            </div>
-            
-        </div>
-    </main>
+              </div>
+            </section>
+      
+            <!--icons-->
+            <ul class="icons-container bounce">
+              <li>
+                <a href=""
+                  ><img
+                    src="./ressources/icons/angel.svg"
+                    alt="angel"
+                    class="social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./ressources/icons/twitter.svg"
+                    alt="twitter"
+                    class="social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./ressources/icons/Linkedin.svg"
+                    alt="Linkedin"
+                    class="social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./ressources/icons/medium.svg"
+                    alt="medium"
+                    class="social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#main"
+                  ><img
+                    src="./ressources/icons/github.svg"
+                    alt="github"
+                    class="social-icon"
+                /></a>
+              </li>
+            </ul>
+      
+            <!--illustrations-->
+            <div class="image-container"><br /></div>
+          </main>
+    
+
 
 </body>
 </html>

@@ -60,6 +60,7 @@ main {
   background-image: url(./ressources/illustration-header-mobile.png);
   background-position: right bottom;
   background-repeat: no-repeat;
+  border: #f55800 solid 3px;
 }
 
 .text-headline {

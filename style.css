@@ -195,6 +195,6 @@ main {
     position: absolute;
     right: 0;
     top: 12%;
-    background-position: right;
+    background-position: bottom right;
   }
 }

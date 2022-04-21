@@ -57,6 +57,9 @@ main {
   padding: 0 20px;
   opacity: 1;
   background-color: #1c1a19;
+  background-image: url(./ressources/illustration-header-mobile.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 .text-headline {
@@ -91,6 +94,7 @@ main {
   line-height: 24px;
   margin: 12px 0;
   color: #f4f5f7;
+  width: 80%;
 }
 
 .icons-container {
@@ -102,17 +106,6 @@ main {
 
 .social-icon {
   margin: 10px;
-}
-
-.image-container {
-  width: 150px;
-  height: 360px;
-  background-repeat: no-repeat;
-  background-image: url('./ressources/illustration-header-mobile.svg');
-  position: absolute;
-  right: 0;
-  bottom: 32.5%;
-  display: block;
 }
 
 @media screen and (min-width: 1024px) {
@@ -195,6 +188,6 @@ main {
     position: absolute;
     right: 0;
     top: 12%;
-    background-position: bottom right;
+    background-position: right;
   }
 }

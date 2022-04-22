@@ -118,7 +118,7 @@ main {
 
 .works-section-header {
   text-align: center;
-  font-family: var(--font-round);
+  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
   font-weight: normal;
 }
@@ -179,7 +179,6 @@ main {
   font-size: 15px;
   color: #091e42;
   margin: 14px 20px;
-  border: 1px solid #8993a4;
   padding: 10px;
 }
 
@@ -265,27 +264,27 @@ main {
 
 .second-grid {
   grid-area: second-grid;
-  background-image: url('./ressources/background-work/code.jpg');
+  background-image: url('./ressources/background-work/Img_gradiant.png');
 }
 
 .third-grid {
   grid-area: third-grid;
-  background-image: url('./ressources/background-work/coding.jpg');
+  background-image: url('./ressources/background-work/Img_gradiant.png');
 }
 
 .fourth-grid {
   grid-area: foruth-grid;
-  background-image: url('./ressources/background-work/programming.png');
+  background-image: url('./ressources/background-work/Img_gradiant.png');
 }
 
 .fifth-grid {
   grid-area: fifth-grid;
-  background-image: url('./ressources/background-work/technology.jpg');
+  background-image: url('./ressources/background-work/Img_gradiant.png');
 }
 
 .sixth-grid {
   grid-area: sixth-grid;
-  background-image: url('./ressources/background-work/laptop.jpg');
+  background-image: url('./ressources/background-work/Img_gradiant.png');
 }
 
 /* --fin General Grid Styling-- */
@@ -300,6 +299,7 @@ main {
 }
 
 .about-header {
+  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
   font-size: 72px;
   margin: 100px auto 0 20px;
   color: #f55800;

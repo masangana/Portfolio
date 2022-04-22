@@ -116,7 +116,6 @@ main {
     background: #fff;
     color: #1c1a19;
     padding: 100px 0;
-    border: red 3px solid;
   }
   
   .works-section-header {
@@ -124,7 +123,6 @@ main {
     font-family: var(--font-round);
     font-size: 40px;
     font-weight: normal;
-    border: orangered 3px solid;
   }
   
   .works-section hr {
@@ -136,7 +134,6 @@ main {
   
   .works-section-project {
     text-align: center;
-    border: black 3px solid;
 
   }
   
@@ -156,7 +153,6 @@ main {
 .works-section-project-description {
   margin: 1px 25px;
   text-align: left;
-  border: chocolate solid 3px;
 }
 
 .works-section-project-description li {
@@ -203,7 +199,6 @@ main {
 
 .works-grid-main-container {
   position: relative;
-  border: blue solid 3px;
 }
 
 .works-grid-one-project-container {
@@ -217,7 +212,6 @@ main {
   text-align: left;
   flex-direction: column;
   filter: contrast(80%);
-  border: red solid 3px;
 }
 
 .works-grid-one-project-container:hover {
@@ -306,7 +300,7 @@ main {
   padding-left: 10px;
   text-align: left;
   background-color: #1c1a19;
-  border: red solid 3px;
+  border: #1c1a19 solid 1px;
 }
 
 .about-header {

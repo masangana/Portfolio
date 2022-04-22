@@ -108,48 +108,45 @@ main {
   margin: 10px;
 }
 
-  /*code du 22 avril work section*/
+/* --works section style-- */
 
-  /* WORKS SECTION */
+.works-section {
+  background: #fff;
+  color: #1c1a19;
+  padding: 100px 0;
+}
 
-  .works-section {
-    background: #fff;
-    color: #1c1a19;
-    padding: 100px 0;
-  }
-  
-  .works-section-header {
-    text-align: center;
-    font-family: var(--font-round);
-    font-size: 40px;
-    font-weight: normal;
-  }
-  
-  .works-section hr {
-    width: 80%;
-    border: none;
-    border-bottom: 2px solid #212121;
-    margin: 24px auto;
-  }
-  
-  .works-section-project {
-    text-align: center;
+.works-section-header {
+  text-align: center;
+  font-family: var(--font-round);
+  font-size: 40px;
+  font-weight: normal;
+}
 
-  }
-  
-  .works-grid-template {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr 300px 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    grid-template-areas: ". first-grid ." ". second-grid ." ". third-grid ." ". foruth-grid ." ". fifth-grid ." ". sixth-grid .";
-  }
+.works-section hr {
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid #212121;
+  margin: 24px auto;
+}
 
-  /* Fin WORK SECTION */
+.works-section-project {
+  text-align: center;
+}
 
-  /* MAIN GRID */
+.works-grid-template {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 300px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-template-areas: ". first-grid ." ". second-grid ." ". third-grid ." ". foruth-grid ." ". fifth-grid ." ". sixth-grid .";
+}
+
+/* --end works section-- */
+
+/* --mai, grid styme-- */
 .works-section-project-description {
   margin: 1px 25px;
   text-align: left;
@@ -193,9 +190,9 @@ main {
   cursor: pointer;
 }
 
- /* fin MAIN GRID */
+/* --main grid style-- */
 
- /* General Grid Styling */
+/* --Grid Style-- */
 
 .works-grid-main-container {
   position: relative;
@@ -263,38 +260,37 @@ main {
   background-image: url('./ressources/background-work/Img_gradiant.png');
   background-repeat: no-repeat;
   position: relative;
-  background-size:auto;
-  
+  background-size: auto;
 }
 
 .second-grid {
   grid-area: second-grid;
-  background-image:url('./ressources/background-work/code.jpg');
+  background-image: url('./ressources/background-work/code.jpg');
 }
 
 .third-grid {
   grid-area: third-grid;
-  background-image:url('./ressources/background-work/coding.jpg');
+  background-image: url('./ressources/background-work/coding.jpg');
 }
 
 .fourth-grid {
   grid-area: foruth-grid;
-  background-image:url('./ressources/background-work/programming.png');
+  background-image: url('./ressources/background-work/programming.png');
 }
 
 .fifth-grid {
   grid-area: fifth-grid;
-  background-image:url('./ressources/background-work/technology.jpg');
+  background-image: url('./ressources/background-work/technology.jpg');
 }
 
 .sixth-grid {
   grid-area: sixth-grid;
-  background-image:url('./ressources/background-work/laptop.jpg');
+  background-image: url('./ressources/background-work/laptop.jpg');
 }
 
- /* fin General Grid Styling */
+/* --fin General Grid Styling-- */
 
-/* About Section */
+/* --About Section-- */
 .about {
   padding-top: 15px;
   padding-left: 10px;
@@ -307,7 +303,6 @@ main {
   font-size: 72px;
   margin: 100px auto 0 20px;
   color: #f55800;
-  
 }
 
 .about-description {
@@ -339,9 +334,9 @@ main {
   border-top: 3px solid white;
 }
 
-/* fin About Section */
+/* --end About Section-- */
 
-/* SKILLS */
+/* --skills section-- */
 .skills {
   text-align: center;
   margin-top: 100px;
@@ -352,7 +347,6 @@ main {
 }
 
 .skill-lang-header {
-  font-weight: bold;
   font-size: 32px;
   margin: 0 12px;
   color: #fff;
@@ -369,9 +363,9 @@ main {
   margin: 20px auto;
 }
 
-/*fin SKILLS */
+/* --end skill section-- */
 
-/*button style */
+/* -- button style-- */
 
 .button {
   font-weight: bold;
@@ -407,9 +401,7 @@ button {
   background: #f55800;
 }
 
-  /*--end--*/
-
-  /*fin 22 avril*/
+/* --end-- */
 
 @media screen and (min-width: 1024px) {
   nav {

@@ -108,6 +108,301 @@ main {
   margin: 10px;
 }
 
+/* --works section style-- */
+
+.works-section {
+  background: #fff;
+  color: #1c1a19;
+  padding: 100px 0;
+}
+
+.works-section-header {
+  text-align: center;
+  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.works-section hr {
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid #212121;
+  margin: 24px auto;
+}
+
+.works-section-project {
+  text-align: center;
+}
+
+.works-grid-template {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 300px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-template-areas: ". first-grid ." ". second-grid ." ". third-grid ." ". foruth-grid ." ". fifth-grid ." ". sixth-grid .";
+}
+
+/* --end works section-- */
+
+/* --mai, grid styme-- */
+.works-section-project-description {
+  margin: 1px 25px;
+  text-align: left;
+}
+
+.works-section-project-description li {
+  margin-left: -15px;
+  margin-right: 25px;
+}
+
+.works-section-project-header {
+  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400 regular;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 12px 0;
+  color: #091e42;
+}
+
+.language-list-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.language-list-item {
+  font-weight: 500;
+  font-size: 15px;
+  color: #091e42;
+  margin: 14px 20px;
+  padding: 10px;
+}
+
+.project-button {
+  margin-top: 15px;
+  margin-left: 0;
+  width: 130px;
+  cursor: pointer;
+}
+
+/* --main grid style-- */
+
+/* --Grid Style-- */
+
+.works-grid-main-container {
+  position: relative;
+}
+
+.works-grid-one-project-container {
+  padding-top: 60px;
+  margin: 80px auto 0 auto;
+  width: 300px;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  filter: contrast(80%);
+}
+
+.works-grid-one-project-container:hover {
+  filter: contrast(100%);
+}
+
+.works-grid-one-project-header {
+  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400 regular;
+  font-size: 32px;
+  margin: 0;
+  padding: 0 20px 0 20px;
+  color: #fff;
+}
+
+.works-grid-one-project-description {
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400 regular;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.works-grid-one-project-language-list {
+  background: rgba(170, 170, 170, 0.24);
+  color: #fff;
+  margin: 0 5px;
+}
+
+.grid-project-button {
+  width: 100%;
+  position: relative;
+  margin: 300px 0 0 0;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.works-grid-project {
+  padding-top: 20px;
+  width: 300px;
+  height: 368px;
+  position: absolute;
+}
+
+.first-grid {
+  grid-area: first-grid;
+  background-image: url('./ressources/background-work/Img_gradiant.png');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: auto;
+}
+
+.second-grid {
+  grid-area: second-grid;
+  background-image: url('./ressources/background-work/Img_gradiant.png');
+}
+
+.third-grid {
+  grid-area: third-grid;
+  background-image: url('./ressources/background-work/Img_gradiant.png');
+}
+
+.fourth-grid {
+  grid-area: foruth-grid;
+  background-image: url('./ressources/background-work/Img_gradiant.png');
+}
+
+.fifth-grid {
+  grid-area: fifth-grid;
+  background-image: url('./ressources/background-work/Img_gradiant.png');
+}
+
+.sixth-grid {
+  grid-area: sixth-grid;
+  background-image: url('./ressources/background-work/Img_gradiant.png');
+}
+
+/* --fin General Grid Styling-- */
+
+/* --About Section-- */
+.about {
+  padding-top: 15px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #1c1a19;
+  border: #1c1a19 solid 1px;
+}
+
+.about-header {
+  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-size: 72px;
+  margin: 100px auto 0 20px;
+  color: #f55800;
+}
+
+.about-description {
+  font-size: 16px;
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.about-button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.about-illustration {
+  width: 100%;
+  text-align: right;
+  padding-top: -80px;
+}
+
+.about-line {
+  width: 90%;
+  border: none;
+  margin: 30px auto;
+  border-top: 3px solid white;
+}
+
+/* --end About Section-- */
+
+/* --skills section-- */
+.skills {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.skills-lang {
+  margin: 70px 0;
+}
+
+.skill-lang-header {
+  font-size: 32px;
+  margin: 0 12px;
+  color: #fff;
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.skill-lang-li {
+  color: #fff;
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 20px auto;
+}
+
+/* --end skill section-- */
+
+/* -- button style-- */
+
+.button {
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f55800;
+}
+
+.button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button:active {
+  background: #e05304;
+  color: #fff;
+}
+
+.button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #f55800;
+}
+
+/* --end-- */
+
 @media screen and (min-width: 1024px) {
   nav {
     justify-content: space-between;

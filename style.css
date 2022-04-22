@@ -260,7 +260,7 @@ main {
 
 .first-grid {
   grid-area: first-grid;
-  background-image: url('./ressources/background-work/tree.jpg');
+  background-image: url('./ressources/background-work/Img_gradiant.png');
   background-repeat: no-repeat;
   position: relative;
   background-size:auto;
@@ -269,27 +269,27 @@ main {
 
 .second-grid {
   grid-area: second-grid;
-  background-image:url('./ressources/background-work/river-gc5ff2c26b_1280.jpg');
+  background-image:url('./ressources/background-work/code.jpg');
 }
 
 .third-grid {
   grid-area: third-grid;
-  background-image:url('./ressources/background-work/river-gc5ff2c26b_1280.jpg');
+  background-image:url('./ressources/background-work/coding.jpg');
 }
 
 .fourth-grid {
   grid-area: foruth-grid;
-  background-image:url('./ressources/background-work/river-gc5ff2c26b_1280.jpg');
+  background-image:url('./ressources/background-work/programming.png');
 }
 
 .fifth-grid {
   grid-area: fifth-grid;
-  background-image:url('./ressources/background-work/river-gc5ff2c26b_1280.jpg');
+  background-image:url('./ressources/background-work/technology.jpg');
 }
 
 .sixth-grid {
   grid-area: sixth-grid;
-  background-image:url('./ressources/background-work/river-gc5ff2c26b_1280.jpg');
+  background-image:url('./ressources/background-work/laptop.jpg');
 }
 
  /* fin General Grid Styling */

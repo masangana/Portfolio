@@ -404,13 +404,98 @@ button {
 /* --end-- */
 
 /* --contact form style section-- */
+
+.contact {
+  background-color: #fff;
+  padding: 0 24px;
+}
+
+.contact-description {
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin: 24px 0;
+  padding-top: 80px;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+input,
+textarea {
+  margin: 20px 0;
+  border: 0;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 15px 16px;
+  outline: none;
+  width: 100%;
+}
+
+input::-moz-placeholder {
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+}
+
+input:-ms-input-placeholder {
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+}
+
+input::placeholder {
+  font-weight: normal;
+  font-size: 15px;
+  color: #979493;
+}
+
+textarea {
+  background-color: #fbf8f7;
+  border: none;
+}
+
+textarea::-moz-placeholder {
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #8b8686;
+}
+
+textarea:-ms-input-placeholder {
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #8b8686;
+}
+
+textarea::placeholder {
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #8b8686;
+}
+
 .form-line { 
   margin: 0; 
   border: none; 
   border-bottom: 1px solid #dfe1e6; 
-} 
+}
 
+.submit {
+  align-self: center;
+}
 
+#error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
 
 /* --end-- */
 

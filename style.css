@@ -404,13 +404,22 @@ button {
 /* --end-- */
 
 /* --contact form style section-- */
+.form-line { 
+  margin: 0; 
+  border: none; 
+  border-bottom: 1px solid #dfe1e6; 
+} 
 
 
 
 /* --end-- */
 
 /* --footer style section-- */
-
+.form-icons-container { 
+  display: flex; 
+  justify-content: center; 
+  padding: 10px; 
+} 
 
 
 /* --end-- */
@@ -497,4 +506,5 @@ button {
     top: 12%;
     background-position: right;
   }
+  
 }

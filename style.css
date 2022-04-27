@@ -180,6 +180,7 @@ main {
   color: #091e42;
   margin: 14px 20px;
   padding: 10px;
+  border: 1px solid #8993a4;
 }
 
 .project-button {
@@ -411,9 +412,8 @@ button {
 }
 
 .contact-description {
-  border: 2px solid red;
   font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
@@ -483,10 +483,10 @@ textarea::placeholder {
   color: #8b8686;
 }
 
-.form-line { 
-  margin: 0; 
-  border: none; 
-  border-bottom: 1px solid #dfe1e6; 
+.form-line {
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .submit {
@@ -502,16 +502,24 @@ textarea::placeholder {
 /* --end-- */
 
 /* --footer style section-- */
-.form-icons-container { 
-  display: flex; 
-  justify-content: center; 
-  padding: 10px; 
+.form-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
   margin: 10px;
-} 
+}
 
-footer { 
-  background: #fff; 
-} 
+footer {
+  background: #fff;
+}
+
+.footer-line {
+  border: #0d151e 2px solid;
+  margin-bottom: 15px;
+  margin-top: 0;
+  width: 30%;
+}
 
 /* --end-- */
 
@@ -597,5 +605,4 @@ footer {
     top: 12%;
     background-position: right;
   }
-  
 }

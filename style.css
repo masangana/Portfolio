@@ -405,7 +405,10 @@ button {
 
 /* --contact form style section-- */
 
-
+.contact {
+  display: flex;
+  flex-direction: column;
+}
 
 /* --end-- */
 

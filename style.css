@@ -639,7 +639,7 @@ footer {
   }
 
   .works-section-project img {
-    width: 540px;
+    width: 620px;
   }
 
   .works-section-project-description {
@@ -687,12 +687,7 @@ footer {
 
   .works-grid-one-project-container {
     height: 370px;
-    margin: 10px 10px;
-  }
-
-  .works-grid-one-project-container:hover {
-    border: 2px solid #777474;
-    background: url("./ressources/background-work/coding.jpg");
+    margin-top: 50px;
   }
 
   .works-grid-one-project-container:hover .works-grid-project {
@@ -704,6 +699,7 @@ footer {
     text-align: center;
     padding: 10px;
   }
+
 
   .grid-project-button {
     display: none;
@@ -771,7 +767,7 @@ footer {
   /* SKILLS */
   .skills {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     text-align: left;
   }
 

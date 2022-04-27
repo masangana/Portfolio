@@ -152,6 +152,10 @@ main {
   text-align: left;
 }
 
+.works-section-project img {
+  width: 300px;
+}
+
 .works-section-project-description li {
   margin-left: -15px;
   margin-right: 25px;
@@ -523,7 +527,7 @@ footer {
 
 /* --end-- */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 994px) {
   nav {
     justify-content: space-between;
     padding: 7px 150px 0 150px;
@@ -605,4 +609,216 @@ footer {
     top: 12%;
     background-position: right;
   }
+
+  
+/*section main*/
+
+  /* WORK SECTION */
+  .works-section {
+    padding: 100px 50px;
+  }
+
+  .works-section-header {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .works-section hr {
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #212121;
+    margin-top: -24px;
+    float: right;
+    margin-right: 40px;
+  }
+
+  .works-section-main-grid {
+    display: flex;
+    margin-top: 100px;
+    padding-left: 50px;
+  }
+
+  .works-section-project img {
+    width: 540px;
+  }
+
+  .works-section-project-description {
+    display: flex;
+    width: 560px;
+    margin: 14px 60px;
+    font-size: 20px;
+    line-height: 28px;
+    flex-direction: column;
+  }
+
+  .works-section-project-header {
+    font-size: 34px;
+    margin: 0 0 20px 0;
+  }
+
+  .language-list-body {
+    margin: 10px 0;
+  }
+
+  .language-list-body li {
+    padding: 3px 10px;
+    font-weight: bolder;
+  }
+
+  .language-list-item {
+    margin: 5px;
+  }
+
+  .project-button {
+    /*display: none;*/
+    margin-bottom: 0;
+  }
+
+  .works-grid-main-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 1170px;
+  }
+
+  .works-grid-one-project-container {
+    height: 370px;
+    margin: 10px 10px;
+  }
+
+  .works-grid-one-project-container:hover {
+    border: 2px solid #777474;
+    background: url("./ressources/background-work/coding.jpg");
+  }
+
+  .works-grid-one-project-container:hover .works-grid-project {
+    display: none;
+  }
+
+  .works-grid-one-project-container:hover .grid-project-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .grid-project-button {
+    display: none;
+  }
+
+  
+   /* ABOUT SECTION */
+   .about {
+    padding: 5px 0 1px 142px;
+    overflow: hidden;
+  }
+
+  .about-section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-sub-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-header {
+    text-align: left;
+    font-size: 72px;
+    margin: 120px 0 0 50px;
+  }
+
+  .about-description {
+    width: 570px;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 24px 100px 0 50px;
+  }
+
+  .about-button {
+    margin: 40px 50px;
+    width: 170px;
+  }
+
+  .about-illustration img {
+    display: none;
+  }
+
+  .about-illustration {
+    width: 700px;
+    height: 550px;
+    background: url('./ressources/illustration-about-me.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: right;
+  }
+
+  .about-line {
+    margin-right: 150px;
+    color: #fff;
+    border: #fff solid 1px;
+    overflow: hidden;
+  }
+
+
+  
+  /* SKILLS */
+  .skills {
+    display: flex;
+    justify-content: start;
+    text-align: left;
+  }
+
+  .skills-lang {
+    margin: 0 200px 150px 0;
+  }
+
+   /* CONTACT */
+   .contact {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact-description {
+    width: 455px;
+    height: 256px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+    margin: 24px 0;
+  }
+
+  form {
+    padding-top: 100px;
+    width: 680px;
+    padding-left: -70px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  textarea {
+    height: 110px;
+  }
+
+  .form-line {
+    width: 100%;
+    margin: 0;
+    background: #fff;
+  }
+
+  .submit {
+    align-self: flex-start;
+  }
+/* ---end css --- */
+  
 }

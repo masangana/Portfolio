@@ -412,6 +412,7 @@ button {
 
 .contact-description {
   border: 2px solid red;
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
   font-size: 32px;
   line-height: 44px;
   text-align: center;

@@ -410,6 +410,11 @@ button {
   flex-direction: column;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* --end-- */
 
 /* --footer style section-- */

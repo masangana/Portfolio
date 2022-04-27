@@ -610,8 +610,7 @@ footer {
     background-position: right;
   }
 
-  
-/*section main*/
+  /* section main */
 
   /* WORK SECTION */
   .works-section {
@@ -670,7 +669,6 @@ footer {
   }
 
   .project-button {
-    /*display: none;*/
     margin-bottom: 0;
   }
 
@@ -694,20 +692,18 @@ footer {
     display: none;
   }
 
+  .grid-project-button {
+    display: none;
+  }
+
   .works-grid-one-project-container:hover .grid-project-button {
     display: block;
     text-align: center;
     padding: 10px;
   }
 
-
-  .grid-project-button {
-    display: none;
-  }
-
-  
-   /* ABOUT SECTION */
-   .about {
+  /* ABOUT SECTION */
+  .about {
     padding: 5px 0 1px 142px;
     overflow: hidden;
   }
@@ -762,8 +758,6 @@ footer {
     overflow: hidden;
   }
 
-
-  
   /* SKILLS */
   .skills {
     display: flex;
@@ -775,8 +769,8 @@ footer {
     margin: 0 200px 150px 0;
   }
 
-   /* CONTACT */
-   .contact {
+  /* CONTACT */
+  .contact {
     display: flex;
     justify-content: space-around;
   }
@@ -815,6 +809,6 @@ footer {
   .submit {
     align-self: flex-start;
   }
-/* ---end css --- */
-  
+
+  /* ---end css --- */
 }

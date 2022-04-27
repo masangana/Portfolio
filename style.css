@@ -410,6 +410,16 @@ button {
   flex-direction: column;
 }
 
+.contact-description {
+  border: 2px solid red;
+  text-align: center;
+  color: #172b4d;
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
 #form {
   display: flex;
   flex-direction: column;

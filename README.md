@@ -10,9 +10,9 @@
 - HTML & CSS
 - Flexbox
 
-## Template view
+## Link to my deployement
 
-[Final resultat](https://drive.google.com/file/d/1gtAzzolIYzEl-YT1GqarFeiNo_rgsFY_/view?usp=sharing)
+[Final resultat](https://masangana.github.io/Portfolio/)
 
 
 ## Getting Started

@@ -13,7 +13,8 @@
         <nav>
           <a href="">Alexander</a>
           <ul>
-            <li class="nav-list menu-collapsed" ><a href="">
+            <li class="nav-list menu-collapsed" ><a href="#">
+              <p class="label-form">menu-mobile</p>
                 <div class="menu-line"></div>
                 <div class="menu-line"></div>
                 <div class="menu-line"></div>
@@ -21,9 +22,9 @@
           </ul>
           
           <ul class="navbar-items">
-            <li class="nav-list"><a href="">Portfolio</a></li>
-            <li class="nav-list"><a href="">About</a></li>
-            <li class="nav-list"><a href="">Contact</a></li>
+            <li class="nav-list"><a href="#">Portfolio</a></li>
+            <li class="nav-list"><a href="#">About</a></li>
+            <li class="nav-list"><a href="#">Contact</a></li>
            
           </ul>
         </nav>
@@ -285,15 +286,15 @@
       </div>
 
       <form action="https://formspree.io/f/xrgjokkj" method="POST" id="form">
-        <label for="name">
-          <input type="text" id="name" placeholder="Full name" minlength="2" maxlength="30" name="name" required>
-        </label>
-        <label for="email">
-          <input type="email" id="email" placeholder="Email address" name="email" required>
-        </label>
-        <label for="message">
+        <label for="name" class="label-form">name</label>
+        <input type="text" id="name" placeholder="Full name" minlength="2" maxlength="30" name="name" required>
+        
+        <label for="email" class="label-form">e-mail</label>
+        <input type="email" id="email" placeholder="Email address" name="email" required>
+        
+        <label for="message" class="label-form">message</label>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter text here" maxlength="500"></textarea>
-        </label>
+        
         <p id="error"></p>
         <button type="submit" id="submit" class="project-button submit button">
           Get in touch

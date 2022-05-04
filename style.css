@@ -46,6 +46,10 @@ li {
   border-bottom: 1px solid #fff5e1;
 }
 
+.label-form {
+  visibility: hidden;
+}
+
 /* main */
 
 main {
@@ -380,7 +384,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f55800;
+  background: #cf4b00;
 }
 
 .button:hover {

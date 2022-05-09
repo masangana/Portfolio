@@ -533,7 +533,8 @@ footer {
   background: #3c3a39;
   position: absolute;
   right: 0;
-  top: 5%;
+  left: 0;
+  top: 10px;
   width: 100vw;
   height: 100vh;
   opacity: 0;
@@ -560,6 +561,10 @@ footer {
 .close-menu {
   background: url('/ressources/icons/close-button.png') no-repeat center;
   padding: 12px;
+}
+
+.noscroll {
+  position: fixed!important
 }
 
 /*** fin **/

@@ -12,9 +12,8 @@
   <body>
     <!--Principal nav-->
     <header>
-      <nav>
-        <a href="">Alexander</a>
-
+      <nav class="nav-style">
+        <a href="#" class="text-logo" id="logo">Alexander</a>
 
         <button type="button" id="menu-container" onclick="togglerMenu()">
           <span class="open-menu menu-collapsed" id="menu-button"></span>
@@ -22,12 +21,12 @@
 
         <ul class="mobile-nav-elements showMenu" id="navigation-elements" style="opacity: 0;">
           <li class="mobile-nav-list active"><a href="#work">Portfolio</a></li>
-          <li class="mobile-nav-list active"><a href="#about">About22</a></li>
+          <li class="mobile-nav-list active"><a href="#about">About</a></li>
           <li class="mobile-nav-list active"><a href="#contact">Contact</a></li>
         </ul>
 
         <ul class="navbar-items">
-          <li class="nav-list"><a href="#Works">Portfolio</a></li>
+          <li class="nav-list active"><a href="#Work">Portfolio</a></li>
           <li class="nav-list"><a href="#about">About</a></li>
           <li class="nav-list"><a href="#contact">Contact</a></li>
 
@@ -76,8 +75,8 @@
     </main>
 
     <!--works section-->
-    <section class="works-section">
-      <h1 class="works-section-header" id="Works">My Recent Works</h1>
+    <section class="works-section" id="Work">
+      <h1 class="works-section-header">My Recent Works</h1>
       <hr />
       <!--main grid-->
       <div class="works-section-main-grid">

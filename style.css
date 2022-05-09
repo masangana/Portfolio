@@ -563,6 +563,14 @@ footer {
   transform: translateY(0);
 }
 
+.show-menu {
+  opacity: 1;
+}
+
+.hide-menu {
+  opacity: 0;
+}
+
 .close-menu {
   background: url("/ressources/icons/close-button.png") no-repeat center;
   padding: 12px;

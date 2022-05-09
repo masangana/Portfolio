@@ -527,6 +527,32 @@ footer {
 
 /* --end-- */
 
+/***** dynamique mobile menu *****/
+
+.mobile-nav-elements {
+  background: #3c3a39;
+  position: absolute;
+  right: 0;
+  top: 9%;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  padding-top: 60px;
+}
+
+.open-menu {
+  background: url('/ressources/icons/menu-button.png') no-repeat;
+  padding: 20px;
+  transform: translateY(0);
+}
+
+.close-menu {
+  background: url('../assest/close.png') no-repeat;
+  padding: 12px;
+}
+
+/*** fin **/
+
 @media screen and (min-width: 994px) {
   nav {
     justify-content: space-between;

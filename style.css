@@ -533,21 +533,32 @@ footer {
   background: #3c3a39;
   position: absolute;
   right: 0;
-  top: 9%;
+  top: 5%;
   width: 100vw;
   height: 100vh;
   opacity: 0;
-  padding-top: 60px;
+  padding-top: 0;
+}
+
+#menu-container {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  cursor: pointer;
 }
 
 .open-menu {
-  background: url('/ressources/icons/menu-button.png') no-repeat;
+  background: url('/ressources/icons/menu-button.png') no-repeat center;
   padding: 20px;
   transform: translateY(0);
 }
 
 .close-menu {
-  background: url('../assest/close.png') no-repeat;
+  background: url('/ressources/icons/close-button.png') no-repeat center;
   padding: 12px;
 }
 

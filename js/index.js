@@ -8,7 +8,6 @@ var page = document.getElementsByTagName('body')[0];
 
 function togglerMenu(){
     if (menuButton.classList.contains('open-menu')) {
-        //menuElement.style.opacity = 1;
         menuElement.classList.remove('hide-menu');
         menuElement.classList.add('show-menu');
         menuButton.classList.remove('open-menu');
@@ -16,7 +15,6 @@ function togglerMenu(){
         logo.classList.add('text-logo-hidden');
         page.classList.add('noscroll');
     } else if(menuButton.classList.contains('close-menu')) {
-        //menuElement.style.opacity = 0;
         menuElement.classList.remove('show-menu');
         menuElement.classList.add('hide-menu');
         menuButton.classList.remove('close-menu');

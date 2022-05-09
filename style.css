@@ -42,7 +42,7 @@ li {
   font-size: 1.4rem;
   padding: 20px 0 15px 30px;
   border: none;
-  border-bottom: 1px solid #fff5e1;
+  border-bottom: 1px solid #6f6c6b;
 }
 
 .mobile-nav-list a {
@@ -670,7 +670,15 @@ footer {
     top: 12%;
     background-position: right;
   }
+  /* */
+  .show-menu {
+    opacity: 0;
+  }
 
+  .text-logo-hidden {
+    display: flex;
+  }
+  
   /* section main */
 
   /* WORK SECTION */

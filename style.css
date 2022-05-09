@@ -45,7 +45,7 @@ li {
   border-bottom: 1px solid #fff5e1;
 }
 
-.mobile-nav-list a{
+.mobile-nav-list a {
   color: #fff5e1;
   font-family: "Inter", Georgia, "Times New Roman", Times, serif;
 }
@@ -574,7 +574,7 @@ footer {
   position: fixed !important;
 }
 
-.text-logo-hidden{
+.text-logo-hidden {
   display: none;
 }
 

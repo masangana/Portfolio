@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +10,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: 700;
   font-size: 18px;
   height: 60px;
@@ -43,7 +42,12 @@ li {
   font-size: 1.4rem;
   padding: 20px 0 15px 30px;
   border: none;
-  border-bottom: 1px solid #fff5e1;
+  border-bottom: 1px solid #6f6c6b;
+}
+
+.mobile-nav-list a {
+  color: #fff5e1;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
 }
 
 /* main */
@@ -67,7 +71,7 @@ main {
 }
 
 .primery-text {
-  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
   color: #f55800;
   font-weight: 400;
   font-size: 54px;
@@ -77,7 +81,7 @@ main {
 }
 
 .supporting-text {
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   color: #fff;
   font-weight: bold;
   font-size: 24px;
@@ -88,7 +92,7 @@ main {
 }
 
 .description {
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -118,7 +122,7 @@ main {
 
 .works-section-header {
   text-align: center;
-  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
   font-weight: normal;
 }
@@ -162,7 +166,7 @@ main {
 }
 
 .works-section-project-header {
-  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
   font-weight: 400 regular;
   font-size: 32px;
   line-height: 44px;
@@ -220,16 +224,16 @@ main {
 }
 
 .works-grid-one-project-header {
-  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
   font-weight: 400 regular;
   font-size: 32px;
   margin: 0;
-  padding: 100px 20px 0 20px;
+  padding: 80px 20px 0 20px;
   color: #fff;
 }
 
 .works-grid-one-project-description {
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: 400 regular;
   font-size: 14px;
   line-height: 24px;
@@ -253,7 +257,7 @@ main {
 }
 
 .works-grid-project {
-  padding-top: 20px;
+  padding-top: 0;
   width: 300px;
   height: 368px;
   position: absolute;
@@ -261,7 +265,7 @@ main {
 
 .first-grid {
   grid-area: first-grid;
-  background-image: url('./ressources/background-work/Img_gradiant.png');
+  background-image: url("./ressources/background-work/Img_gradiant.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: auto;
@@ -269,27 +273,27 @@ main {
 
 .second-grid {
   grid-area: second-grid;
-  background-image: url('./ressources/background-work/Img_gradiant.png');
+  background-image: url("./ressources/background-work/Img_gradiant.png");
 }
 
 .third-grid {
   grid-area: third-grid;
-  background-image: url('./ressources/background-work/Img_gradiant.png');
+  background-image: url("./ressources/background-work/Img_gradiant.png");
 }
 
 .fourth-grid {
   grid-area: foruth-grid;
-  background-image: url('./ressources/background-work/Img_gradiant.png');
+  background-image: url("./ressources/background-work/Img_gradiant.png");
 }
 
 .fifth-grid {
   grid-area: fifth-grid;
-  background-image: url('./ressources/background-work/Img_gradiant.png');
+  background-image: url("./ressources/background-work/Img_gradiant.png");
 }
 
 .sixth-grid {
   grid-area: sixth-grid;
-  background-image: url('./ressources/background-work/Img_gradiant.png');
+  background-image: url("./ressources/background-work/Img_gradiant.png");
 }
 
 /* --fin General Grid Styling-- */
@@ -304,7 +308,7 @@ main {
 }
 
 .about-header {
-  font-family: 'Crete Round', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
   font-size: 72px;
   margin: 100px auto 0 20px;
   color: #f55800;
@@ -312,7 +316,7 @@ main {
 
 .about-description {
   font-size: 16px;
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 24px;
   margin: 20px;
@@ -355,13 +359,13 @@ main {
   font-size: 32px;
   margin: 0 12px;
   color: #fff;
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
 }
 
 .skill-lang-li {
   color: #fff;
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   font-weight: normal;
   font-size: 22px;
@@ -416,7 +420,7 @@ button {
 }
 
 .contact-description {
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
   line-height: 52px;
   text-align: center;
@@ -467,21 +471,21 @@ textarea {
 }
 
 textarea::-moz-placeholder {
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 15px;
   color: #8b8686;
 }
 
 textarea:-ms-input-placeholder {
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 15px;
   color: #8b8686;
 }
 
 textarea::placeholder {
-  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 15px;
   color: #8b8686;
@@ -526,6 +530,63 @@ footer {
 }
 
 /* --end-- */
+
+/***** dynamique mobile menu *****/
+
+.mobile-nav-elements {
+  background: #3c3a39;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 60px;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#menu-container {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.open-menu {
+  background: url("/ressources/icons/menu-button.png") no-repeat center;
+  padding: 20px;
+  transform: translateY(0);
+}
+
+.show-menu {
+  opacity: 1;
+}
+
+.hide-menu {
+  opacity: 0;
+}
+
+.close-menu {
+  background: url("/ressources/icons/close-button.png") no-repeat center;
+  padding: 12px;
+  position: absolute;
+  right: 25px;
+}
+
+.noscroll {
+  position: fixed !important;
+}
+
+.text-logo-hidden {
+  display: none;
+}
+
+/*** fin **/
 
 @media screen and (min-width: 994px) {
   nav {
@@ -603,11 +664,19 @@ footer {
     height: 560px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('./ressources/Illustration-header.png');
+    background-image: url("./ressources/Illustration-header.png");
     position: absolute;
     right: 0;
     top: 12%;
     background-position: right;
+  }
+
+  .show-menu {
+    opacity: 0;
+  }
+
+  .text-logo-hidden {
+    display: flex;
   }
 
   /* section main */
@@ -751,7 +820,7 @@ footer {
   .about-illustration {
     width: 700px;
     height: 550px;
-    background: url('./ressources/illustration-about-me.png');
+    background: url("./ressources/illustration-about-me.png");
     background-repeat: no-repeat;
     background-size: 100%;
     float: right;

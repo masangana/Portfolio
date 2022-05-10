@@ -39,58 +39,58 @@ const modalData = [
     {
       id : 1,
       main: true,
-      name: 'To-do-list22',
-      languages: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
+      name: 'Portfolio',
+      languages: ['CSS', 'HTML', 'JavaScript'],
       description:
-        'ALEX Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque possimus, repellendus recusandae dicta obcaecati minima expedita vero quidem et dolore impedit.',
-      img: './assest/Projects/ToDoList.png',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque possimus, repellendus recusandae dicta obcaecati minima expedita vero quidem et dolore impedit.',
+      img: './ressources/demo_portfolio.png',
       link: 'https://akshithareddy1899.github.io/Microverse-Portfolio/',
       source: 'https://github.com/AkshithaReddy1899/Microverse-Portfolio',
     },
     {
       id : 2,
       main: false,
-      name: 'Profesional Art Printing Data',
-      languages: ['HTML', 'Bootstrap', 'Alex'],
+      name: 'Awa Nde',
+      languages: ['HTML', 'Bootstrap','Ruby'],
       description:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus recusandae illum velit amet consectetur omnis aperiam aut. Incidunt quaerat ',
-      img: 'https://images.unsplash.com/photo-1639413665566-2f75adf7b7ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+      img: './ressources/Portfolioshow.png',
     },
     {
       id : 3,
       main: false,
-      name: 'Weather App',
-      languages: ['HTML', 'kevin', 'Ruby'],
+      name: 'Guilgald',
+      languages: ['HTML', 'JavaScript', 'Ruby'],
       description:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus recusandae illum velit amet consectetur omnis aperiam aut. Incidunt quaerat ',
-      img: 'https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      img: './ressources/Portfolioshow.png',
     },
     {
       id : 4,
       main: false,
-      name: 'Project Showcase',
+      name: 'Demo Project',
       languages: ['HTML', 'Bootstrap', 'Ruby'],
       description:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus recusandae illum velit amet consectetur omnis aperiam aut. Incidunt quaerat consequatur magnam! Rerum sunt quos doloribus illo!',
-      img: 'https://images.unsplash.com/photo-1639398948599-051840e7bdfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      img: './ressources/Portfolioshow.png',
     },
     {
       id : 5,
       main: false,
-      name: 'Pomodoro',
+      name: 'New Demo',
       languages: ['HTML', 'Bootstrap', 'Ruby'],
       description:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus recusandae illum velit amet consectetur omnis aperiam aut. Incidunt quaerat ',
-      img: 'https://images.unsplash.com/photo-1639413665566-2f75adf7b7ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+      img: './ressources/Portfolioshow.png',
     },
     {
       id : 6,
       main: false,
-      name: 'Calculator',
+      name: 'Weather App',
       languages: ['HTML', 'Bootstrap', 'Ruby'],
       description:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus recusandae illum velit amet consectetur omnis aperiam aut. Incidunt quaerat ',
-      img: 'https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      img: './ressources/Portfolioshow.png',
     },
     {
       id : 7,
@@ -99,7 +99,7 @@ const modalData = [
       languages: ['HTML', 'Bootstrap', 'Ruby'],
       description:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus recusandae illum velit amet consectetur omnis aperiam aut. Incidunt quaerat ',
-      img: 'https://images.unsplash.com/photo-1639398948599-051840e7bdfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      img: './ressources/Portfolioshow.png',
     },
   ];
   
@@ -110,8 +110,7 @@ const modalData = [
    modalData.forEach((project, index) =>{
     let lang ="";
     if(project.main){
-      console.log('dedans')
-      
+    
       project.languages.forEach((element) => {
         lang += `<li class="language-list-item">${element}</li>`;
       });
@@ -130,11 +129,8 @@ const modalData = [
               ${lang}
             </ul>
             <button data-index="${index}" type="button" class="project-button button display-modal popup-btn">See Project</button>
-          </div>`
-  
-          console.log('fin execute')
+          </div>`;
     }else{
-      console.log('resultat2');
       project.languages.forEach((element) => {
         lang += `<li class="language-list-item works-grid-one-project-language-list">${element}</li>`;
       });
@@ -168,6 +164,10 @@ const modalData = [
     document
       .querySelector('#modal-img')
       .setAttribute('src', modalData[index].img);
+      document
+      .querySelector('#modal-img')
+      .setAttribute('alt', modalData[index].name);
+      page.classList.add('noscroll');
   };
   
   const modalDisplayBtn = document.querySelectorAll('.display-modal');
@@ -180,6 +180,7 @@ const modalData = [
   
   document.querySelector('.modal-close-btn').addEventListener('click', () => {
     document.querySelector('.modal-container').style.display = 'none';
+    page.classList.remove('noscroll');
   });
   
   

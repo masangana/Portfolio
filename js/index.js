@@ -1,3 +1,9 @@
+// Preserve data
+import {
+  storageAvailable,
+} from './storage.js';
+
+
 const menuElement = document.getElementById("navigation-elements");
 const menuButton = document.getElementById("menu-button");
 const logo = document.getElementById("logo");
@@ -176,7 +182,7 @@ document.querySelector(".modal-close-btn").addEventListener("click", () => {
   page.classList.remove("noscroll");
 });
 
-/* FORM VALIDATIONS */
+/**** FORM VALIDATIONS ****/
 
 const submit = document.getElementById("submit");
 const emailError = document.getElementById("error");
@@ -191,3 +197,46 @@ submit.addEventListener("click", (event) => {
     event.preventDefault();
   }
 });
+
+
+/******* Local Storage *********/
+
+if (storageAvailable('localStorage')) {
+  const setFormValues = () => {
+    const formData = {
+      name: form.contact_name.value,
+      email: form.contact_email.value,
+      message: form.contact_message.value,
+    };
+
+    localStorage.setItem('formData', JSON.stringify(formData));
+  };
+
+  form.contact_name.addEventListener('change', setFormValues);
+  form.contact_email.addEventListener('change', setFormValues);
+  form.contact_message.addEventListener('change', setFormValues);
+
+  const checkLocal = () => {
+    let name = '';
+    let email = '';
+    let message = '';
+
+    if (JSON.parse(localStorage.getItem('formData')) === null) {
+      name = '';
+      email = '';
+      message = '';
+    } else {
+      ({ name, email, message } = JSON.parse(localStorage.getItem('formData')));
+    }
+
+    if (name !== 'empty' || email !== 'empty' || message !== 'empty') {
+      form.contact_name.value = name;
+      form.contact_email.value = email;
+      form.contact_message.value = message;
+    }
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    checkLocal();
+  });
+}

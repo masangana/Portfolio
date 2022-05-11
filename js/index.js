@@ -184,4 +184,19 @@ const modalData = [
     page.classList.remove('noscroll');
   });
   
+
+  /* FORM VALIDATIONS */
+
+const submit = document.getElementById('submit');
+const emailError = document.getElementById('error');
+
+submit.addEventListener('click', (event) => {
+  const email = document.getElementById('email').value;
+  const emailValidation = /[A-Z]/.test(email);
+
+  if (emailValidation) {
+    emailError.textContent = 'Please enter email in lowercase';
+    event.preventDefault();
+  }
+});
   

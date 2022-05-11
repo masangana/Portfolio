@@ -586,12 +586,9 @@ footer {
   display: none;
 }
 
-/*** fin **/
+/* MODAL STYLING */
 
-
- /* MODAL STYLING */
-
- .modal-container {
+.modal-container {
   display: none;
   position: fixed;
   z-index: 1;
@@ -650,7 +647,6 @@ footer {
   width: 120px;
   margin: 10px;
 }
-
 
 @media screen and (min-width: 994px) {
   nav {
@@ -908,7 +904,6 @@ footer {
     width: 120px;
     margin: 10px;
   }
-
 
   /* ABOUT SECTION */
   .about {

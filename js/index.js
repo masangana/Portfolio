@@ -6,6 +6,7 @@ var page = document.getElementsByTagName('body')[0];
 
 
 
+
 function togglerMenu(){
     if (menuButton.classList.contains('open-menu')) {
         menuElement.classList.remove('hide-menu');
@@ -109,6 +110,7 @@ const modalData = [
   
    modalData.forEach((project, index) =>{
     let lang ="";
+    let identity ="";
     if(project.main){
     
       project.languages.forEach((element) => {
@@ -167,7 +169,6 @@ const modalData = [
       document
       .querySelector('#modal-img')
       .setAttribute('alt', modalData[index].name);
-      page.classList.add('noscroll');
   };
   
   const modalDisplayBtn = document.querySelectorAll('.display-modal');

@@ -1,3 +1,8 @@
+
+import {
+  storageAvailable,
+} from "./storage.js";
+
 const menuElement = document.getElementById("navigation-elements");
 const menuButton = document.getElementById("menu-button");
 const logo = document.getElementById("logo");
@@ -187,7 +192,50 @@ submit.addEventListener("click", (event) => {
 
   if (emailValidation) {
     emailError.textContent =
-      "Please enter a valid email , ensure that it is in the lowercase";
+      "Please enter a valid email in Lower case";
     event.preventDefault();
   }
 });
+
+
+
+/** local storage **/
+
+if (storageAvailable('localStorage')) {
+  const setFormValues = () => {
+    const formData = {
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value,
+    };
+    localStorage.setItem('formData', JSON.stringify(formData));
+  };
+
+  form.name.addEventListener('change', setFormValues);
+  form.email.addEventListener('change', setFormValues);
+  form.message.addEventListener('change', setFormValues);
+
+  const checkLocal = () => {
+    let name = '';
+    let email = '';
+    let message = '';
+
+    if (JSON.parse(localStorage.getItem('formData')) === null) {
+      name = '';
+      email = '';
+      message = '';
+    } else {
+      ({ name, email, message } = JSON.parse(localStorage.getItem('formData')));
+    }
+
+    if (name !== 'empty' || email !== 'empty' || message !== 'empty') {
+      form.name.value = name;
+      form.email.value = email;
+      form.message.value = message;
+    }
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    checkLocal();
+  });
+}

@@ -230,14 +230,14 @@
 
       <form action="https://formspree.io/f/xrgjokkj" method="POST" id="form">
         <label for="name">
-          <input type="text" id="name" placeholder="Full name" minlength="2" maxlength="30" name="name" required>
+          <input type="text" id="name" placeholder="Full name" minlength="2" maxlength="30" name="name" class="contact_name" required>
         </label>
         <label for="email">
-          <input type="email" id="email" placeholder="Email address" name="email" required>
+          <input type="email" id="email" placeholder="Email address" name="email" class="contact_email" required>
         </label>
         <label for="message">
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter text here"
-            maxlength="500"></textarea>
+            maxlength="500" class="contact_message"></textarea>
         </label>
         <p id="error"></p>
         <button type="submit" id="submit" class="project-button submit button">

@@ -193,7 +193,7 @@ submit.addEventListener("click", (event) => {
 
   if (emailValidation) {
     emailError.textContent =
-      "Please enter a valid email , ensure that it is in the lowercase";
+      "Please enter a valid email in the lowercase format";
     event.preventDefault();
   }
 });

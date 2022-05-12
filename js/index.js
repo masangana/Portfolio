@@ -1,3 +1,8 @@
+
+import { 
+  storageAvailable, 
+} from "./storage.js";
+
 const menuElement = document.getElementById("navigation-elements");
 const menuButton = document.getElementById("menu-button");
 const logo = document.getElementById("logo");
@@ -199,17 +204,16 @@ submit.addEventListener("click", (event) => {
 if (storageAvailable('localStorage')) {
   const setFormValues = () => {
     const formData = {
-      name: form.contact_name.value,
-      email: form.contact_email.value,
-      message: form.contact_message.value,
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value,
     };
-
     localStorage.setItem('formData', JSON.stringify(formData));
   };
 
-  form.contact_name.addEventListener('change', setFormValues);
-  form.contact_email.addEventListener('change', setFormValues);
-  form.contact_message.addEventListener('change', setFormValues);
+  form.name.addEventListener('change', setFormValues);
+  form.email.addEventListener('change', setFormValues);
+  form.message.addEventListener('change', setFormValues);
 
   const checkLocal = () => {
     let name = '';
@@ -225,9 +229,9 @@ if (storageAvailable('localStorage')) {
     }
 
     if (name !== 'empty' || email !== 'empty' || message !== 'empty') {
-      form.contact_name.value = name;
-      form.contact_email.value = email;
-      form.contact_message.value = message;
+      form.name.value = name;
+      form.email.value = email;
+      form.message.value = message;
     }
   };
 

@@ -1,7 +1,7 @@
 
 export const name = document.querySelector('.contact__name');
 
-function storageAvailable() {
+export function storageAvailable() {
     try {
         var storage = window['localStorage'],
             x = '__storage_test__';

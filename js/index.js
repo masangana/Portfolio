@@ -1,6 +1,6 @@
 
-import { 
-  storageAvailable, 
+import {
+  storageAvailable,
 } from "./storage.js";
 
 const menuElement = document.getElementById("navigation-elements");
@@ -192,7 +192,7 @@ submit.addEventListener("click", (event) => {
 
   if (emailValidation) {
     emailError.textContent =
-      "Please enter a valid email , ensure that it is in the lowercase";
+      "Please enter a valid email in Lower case";
     event.preventDefault();
   }
 });

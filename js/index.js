@@ -1,8 +1,4 @@
 
-import {
-  storageAvailable,
-} from "./storage.js";
-
 const menuElement = document.getElementById("navigation-elements");
 const menuButton = document.getElementById("menu-button");
 const logo = document.getElementById("logo");
@@ -216,7 +212,7 @@ if (storageAvailable('localStorage')) {
   form.message.addEventListener('change', setFormValues);
 
   const checkLocal = () => {
-    let name = '';
+    let nam = '';
     let email = '';
     let message = '';
 
